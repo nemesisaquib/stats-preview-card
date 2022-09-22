@@ -107,7 +107,22 @@ p{
     font-size:14px;
 }
 
+.code-by{
+    margin-top: 1rem ;
+    text-align: center;
+}
 
+.code-by a{
+    color:var(--White);
+    
+    text-decoration: none;
+    transition: 0.4s ease-in;
+}
+
+a:hover{
+    color: white;
+    background:var(--Soft);
+}
 
 @media (max-width:500px) {
 
@@ -159,5 +174,9 @@ p{
         padding: 1rem;
         gap:1.5rem;
     }
+    a:hover{
+        background: none;
+    }
 
 }
+
